@@ -134,7 +134,7 @@ Dont worry, routines will make more sense after we understand how to run a scrap
 
 Tasks
 -----
-Tasks are where you are going to spend most of your time. They hold the scraping logic and basically do all the dirty work.
+Tasks are where you are going to spend most of your time. They hold the scraping logic and basically do all the dirty work. To define a new task you have to pass three parameters. The scraperId, the agentId and the taskId.
 
 ```javascript
 // Creating a task
