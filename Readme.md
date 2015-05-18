@@ -206,8 +206,8 @@ Yakuza.task('articles', 'techCrunch', 'getArticlesList').main(function (task, ht
 
     articleLinks = [];
 
-    $('a.article').each(function ($article) {
-      articleLinks.push($article.attr('href'));
+    $('a.article').each(function (index, article) {
+      articleLinks.push($(article).attr('href'));
     });
 
     task.success(articleLinks); // Successfully return all article links found
